@@ -24,6 +24,15 @@
             src: url('fonts/ptn77f_w.eot');
             src: local('PT Sans Narrow Bold'), url('fonts/PTN77F_W.woff2') format('woff2');
         }
+        body::after{
+            position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+            content:url("assets/sh.webp") url("./assets/logo.webp")
+            url("assets/adjust-bar_light_to.svg") url("assets/adjust-bar_light_from.svg")
+            url("assets/panel__icon_temp_on.svg") url("assets/panel__icon_light_off.svg")
+            url("assets/cloud-drizzle.svg") url("assets/panel__icon_temp_off.svg")
+            url("assets/panel__icon_temp_on.svg") url("assets/panel__icon_light_off.svg")
+            url("assets/panel__icon_light_on.svg") url("assets/panel__icon_clock.svg");
+        }
         .main__greeting {
             font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
